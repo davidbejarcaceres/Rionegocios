@@ -7400,25 +7400,26 @@ body {
 }
 /*Cambia el contenedor que engloba a los elementos (barra lateral derecha izquierda y contenido) debajo de la cabecera*/
 .main-container .container-fluid .js-quickedit-main-content {
-  margin-top: 2em;
+  margin-top: 1em;
   /*Añade una separación con el header*/
 }
 .main-container.container-fluid.js-quickedit-main-content {
-  margin-top: 2em;
+  margin-top: 1em;
 }
 .main-container.container-fluid.js-quickedit-main-content {
-  margin-top: 2em;
+  margin-top: 1em;
+}
+/*Añade padding a los formularios de contacto*/
+.region.region-content {
+  padding: 1em;
 }
 /*Cambia el estilo de la clase conatiner-fluid de Boostrap para mejorar la  responsividad*/
 .container-fluid {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  /* margin-right: auto; */
+  /* margin-left: auto; */
 }
 /**Cambia el tamaño de los textos del menú de categorías favoritas (dentro del bloque en la barra lateral derecha)*/
 h1 {
-  font-weight: Roboto;
   font-size: 3em;
 }
 /**Cambia el tamaño de los textos del menú de categorías favoritas (dentro del bloque en la barra lateral derecha)*/
@@ -7479,6 +7480,11 @@ p {
   background-color: #fff;
   border-radius: 0.5em;
   border-color: white;
+  margin-top: 0.5em;
+}
+/*Añade padding al contenido del sitio para que no se pegue a los bordes en dispositivos pequeños*/
+.content {
+  padding: 0.5em;
 }
 /*Modifica el estilo de las imágenes en las vistas */
 .img-responsive,
@@ -7529,6 +7535,13 @@ p {
   padding-right: 0.3em;
   background: white;
   border-radius: 0.5em;
+  margin-top: 0.5em;
+}
+/*Modifica la posición de la barra de busqueda*/
+.form-group {
+  margin-bottom: 15px;
+  margin-top: 0.5em;
+  /*Se añade maergen para que se nivele con las vistas y barra lateral derecha*/
 }
 /*Estilo para el menú despegable del manú principal*/
 navbar-nav > li > .dropdown-menu {
