@@ -33,8 +33,13 @@ body{
 }
 
 /*Añade padding a los formularios de contacto*/
-.region.region-content {
+form#contact-message-feedback-form {
     padding: 1em;
+}
+
+/*Sobre escribe la región de contenido que se usa en ciertas vistas (Página Principal)*/
+.region.region-content {
+    padding: 0em;
 }
 
 /*Cambia el estilo de la clase conatiner-fluid de Boostrap para mejorar la  responsividad*/
@@ -173,7 +178,7 @@ p{
 }
 
 /*Estilo para el menú despegable del manú principal*/
-navbar-nav > li > .dropdown-menu {
+.navbar-nav > li > .dropdown-menu {
     margin-top: 0;
     border-top-right-radius: 0;
     border-top-left-radius: 0;
