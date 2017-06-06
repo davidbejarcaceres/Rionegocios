@@ -7382,8 +7382,7 @@ p:last-child,
 /*Cambia el color del fondo de la página con la variable del tema*/
 /*Cambia el contenido de la página*/
 body {
-  font-family: Roboto;
-  /*Cambia el color del fondo de la página*/
+  font-family: arial, sans-serif;
 }
 /*Modifica el estilo de la barra de navegación superior*/
 .navbar-inverse {
@@ -7432,14 +7431,14 @@ h2 {
   font-weight: normal;
   margin-top: 1.2em;
   font-size: 1.5em;
-  font-family: Roboto;
-  /*Cambia la fuente del texto  a Roboto para mejorar la visibilidad*/
+  font-family: arial, sans-serif;
+  /*Cambia la fuente del texto    para mejorar la visibilidad*/
 }
 h3 {
   color: black;
   font-size: 1.1em;
-  font-family: Roboto;
-  /*Cambia la fuente del texto  a Roboto para mejorar la visibilidad*/
+  font-family: arial, sans-serif;
+  /*Cambia la fuente del texto   para mejorar la visibilidad*/
   margin-top: 0.2em;
   margin-bottom: 0.3em;
 }
@@ -7447,14 +7446,14 @@ h3 {
 p {
   color: black;
   font-size: 1.0em;
-  font-family: Roboto;
-  /*Cambia la fuente del texto  a Roboto para mejorar la visibilidad*/
+  font-family: arial, sans-serif;
+  /*Cambia la fuente del texto  a  para mejorar la visibilidad*/
 }
 /**Cambia el tamaño del texto del título de categorías favoritas (dentro del bloque de la barra lateral derecha)*/
 .block-title {
   font-size: 1.50em;
   font-weight: normal;
-  font-family: Roboto;
+  font-family: arial, sans-serif;
 }
 /*Modifica el estilo del botón de búsqueda*/
 .input-group-btn:last-child > .btn,
