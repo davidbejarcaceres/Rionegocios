@@ -1115,6 +1115,7 @@ img {
   height: auto;
   border-radius: 0.5em;
   width: 100%;
+  border: 3px solid #dddddd;
 }
 .img-rounded {
   border-radius: 0;
@@ -7498,12 +7499,17 @@ p {
 .thumbnail > img,
 .thumbnail a > img,
 .carousel-inner > .item > img,
+.carousel-inner > .item > a > img,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
   max-width: 100%;
   height: auto;
   border-radius: 0.5em;
   width: 100%;
+  border: 3px solid #dddddd;
 }
 .views-view-grid .views-col {
   float: left;
@@ -7540,6 +7546,14 @@ p {
   border-radius: 0.5em;
   margin-top: 0.5em;
 }
+.col-sm-6 img:hover,
+.col-md-6 img:hover {
+  border: 3px solid #939292;
+}
+.col-sm-6 img-responsive:hover,
+.col-md-6 img-responsive:hover {
+  border: 3px solid #939292;
+}
 /*Modifica la posición de la barra de busqueda*/
 .form-group {
   margin-bottom: 15px;
@@ -7558,6 +7572,39 @@ p {
 .navbar-nav .open .dropdown-menu .dropdown-header {
   padding: 9px 15px 5px 25px;
   /*Se añade más separación entre los elementos para mejorar patanllas táctiloes*/
+}
+.view-responsive-grid {
+  margin-top: 1em;
+}
+.view-responsive-grid img-responsive {
+  width: 100%;
+  border: 3px solid #eee;
+  padding: 3px;
+  border-radius: 5px;
+}
+.view-responsive-grid img {
+  width: 100%;
+  border: 3px solid #eee;
+  padding: 3px;
+  border-radius: 5px;
+}
+.view-responsive-grid img-responsive:hover {
+  border-color: #ddd;
+}
+.view-responsive-grid img:hover {
+  border-color: #ddd;
+}
+.view-responsive-grid p {
+  position: relative;
+  bottom: 48px;
+  left: 6px;
+  color: #fff;
+  padding: 0.5em 0.7em;
+  background: rgba(17, 17, 17, 0.5);
+  display: inline;
+}
+.view-responsive-grid a {
+  text-decoration: none;
 }
 /*Modifica el estilo de la primera columna de la cuadrícula*/
 /*
