@@ -7409,6 +7409,10 @@ body {
 .main-container.container-fluid.js-quickedit-main-content {
   margin-top: 1em;
 }
+ol,
+ul {
+  padding-left: 0.5em;
+}
 /*Añade padding a los formularios de contacto*/
 form#contact-message-feedback-form {
   padding: 1em;
@@ -7416,6 +7420,29 @@ form#contact-message-feedback-form {
 /*Sobre escribe la región de contenido que se usa en ciertas vistas (Página Principal)*/
 .region.region-content {
   padding: 0em;
+}
+.page-header {
+  margin-top: 0;
+  padding-left: 0.3em;
+}
+article.contextual-region.negocios.is-promoted.full.clearfix,
+article.contextual-region.negocios.is-promoted.full.dl-horizontal dd,
+article.contextual-region.negocios.is-promoted.full.container,
+article.contextual-region.negocios.is-promoted.full.container-fluid,
+article.contextual-region.negocios.is-promoted.full.row,
+article.contextual-region.negocios.is-promoted.full.form-horizontal .form-group,
+article.contextual-region.negocios.is-promoted.full.btn-toolbar,
+article.contextual-region.negocios.is-promoted.full.btn-group-vertical > .btn-group,
+article.contextual-region.negocios.is-promoted.full.nav,
+article.contextual-region.negocios.is-promoted.full.navbar,
+article.contextual-region.negocios.is-promoted.full.navbar-header,
+article.contextual-region.negocios.is-promoted.full.navbar-collapse,
+article.contextual-region.negocios.is-promoted.full.pager,
+article.contextual-region.negocios.is-promoted.full.panel-body,
+article.contextual-region.negocios.is-promoted.full.modal-header,
+article.contextual-region.negocios.is-promoted.full.modal-footer,
+article.contextual-region.negocios.is-promoted.full.filter-wrapper {
+  padding: 0.5em;
 }
 /*Cambia el estilo de la clase conatiner-fluid de Boostrap para mejorar la  responsividad*/
 .container-fluid {
@@ -7485,6 +7512,7 @@ p {
   border-radius: 0.5em;
   border-color: white;
   margin-top: 0.5em;
+  padding: 0.5em;
 }
 /*Añade padding al contenido del sitio para que no se pegue a los bordes en dispositivos pequeños*/
 .content {

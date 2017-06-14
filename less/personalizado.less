@@ -31,6 +31,10 @@ body{
 .main-container.container-fluid.js-quickedit-main-content {
     margin-top: 1em;
 }
+ol,
+ul {
+  padding-left: 0.5em; //modifica el padding para los elementos la barra lateral derecha.
+}
 
 /*Añade padding a los formularios de contacto*/
 form#contact-message-feedback-form {
@@ -41,6 +45,17 @@ form#contact-message-feedback-form {
 .region.region-content {
     padding: 0em;
 }
+//añade un paddig al título de cada página
+.page-header {
+    margin-top: 0;
+    padding-left: 0.3em;
+}
+
+//añade padding a el contenido de los negocios (todos los campos)
+article.contextual-region.negocios.is-promoted.full.clearfix {
+    padding: 0.5em;
+}
+
 
 /*Cambia el estilo de la clase conatiner-fluid de Boostrap para mejorar la  responsividad*/
 .container-fluid {
@@ -115,6 +130,7 @@ p{
   border-radius: 0.5em;
   border-color: white;
   margin-top: 0.5em;
+  padding: 0.5em;
 }
 
 /*Añade padding al contenido del sitio para que no se pegue a los bordes en dispositivos pequeños*/
