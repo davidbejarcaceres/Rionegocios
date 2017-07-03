@@ -172,14 +172,36 @@ p{
   padding-top: 2.5em;
   padding-bottom: 36px;
   border-top: 1px solid #000000;
-  background: #222222;
-  color: white;
+  background: #263238;
+  color: #cfd8dc;
   /*añade un margen al pie de pagina para ir con el efecto de la cabecera*/
   margin-left:0.5em;
   margin-right: 0.5em;
   margin-bottom: 0.5em;
   border-radius: 0.3em; /*añade esquinas redondeadas para ir con el estilo del tema */
   }
+
+  /*Modifica el pie de página, los enlaces y texto*/
+  .footermap-col-heading { /*Modifica el título de las columnas*/
+  text-align: left; /*Alinea a la izuierda los titulos de las columnas*/
+  color: #cfd8dc; /*Cambia el color de titulo de columnas a blanco*/
+  font-size: 1em;
+  font-weight: 600;
+}
+.footermap-item { /*Modifica los enalces del footer*/
+  color: #d2e0f1;
+  display: block;
+  list-style: none inside none;
+  margin-top: 0.5em; /*Añade margen a los enlaces de la lista*/
+}
+.footer a {
+  color: #cfd8dc; /*Modifica el color del texto tipo "a" en el footer*/
+  text-decoration: none;
+  font-size: 1em;
+}
+.footer a:hover{ /*Modifica los enlaces del footer cuando se pasa el mouse por encima*/
+  text-decoration: underline;
+}
 
 /*Modiica la cuadrícula con los negocios en las vistas*/
 .col-sm-6, .col-md-6 {
@@ -219,7 +241,6 @@ p{
     padding: 9px 15px 5px 25px; /*Se añade más separación entre los elementos para mejorar patanllas táctiloes*/
 }
 
-
 //Modifica el estilo de la vista respnsive grid, sólo entorno de pruebas
 .view-responsive-grid{
   margin-top: 1em;
@@ -254,7 +275,6 @@ p{
     text-decoration: none;
   }
 }
-
 
 /*Modifica el estilo de la primera columna de la cuadrícula*/
 /*
